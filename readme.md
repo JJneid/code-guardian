@@ -2,6 +2,17 @@
 
 This guide explains how to build an AI agent that can safely execute code in an isolated Docker environment.
 
+Agent takes in a task description, such as:
+
+```
+"Analyze American Airlines (AAL) stock, include last 2 years use scikit learn"
+
+```
+
+then, generates a code to perform this task, executes the code and analyses the results
+
+![alt text](task.png "task")
+
 ## Prerequisites
 
 - Python 3.8+
