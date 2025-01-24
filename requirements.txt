@@ -1,0 +1,10 @@
+autogen_agentchat==0.4.3
+autogen_core==0.4.3
+autogen_ext==0.4.3
+fastapi==0.115.7
+python-dotenv==1.0.1
+uvicorn==0.15.0
+tiktoken
+openai
+nbclient
+ipykernel
